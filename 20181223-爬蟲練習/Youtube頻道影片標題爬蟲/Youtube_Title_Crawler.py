@@ -10,6 +10,7 @@ txt = open('video-title.txt', 'w', encoding = 'UTF-8')
 for i in target:
 	f=i.get_text().strip()
 	txt.write(f)
+	txt.write('\n')
 txt.close()
-
+ 
 
